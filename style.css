@@ -16,12 +16,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 48px;
 }
 
 div.cards {
   display: flex;
-  justify-content: center;
 }
 
 div.first_card {
@@ -76,7 +74,7 @@ div.third_card p {
 
 button {
   margin-top: 83px;
-  border: 1px;
+  border: 1px solid white;
   border-radius: 25px;
   width: 146px;
   height: 48px;
@@ -84,17 +82,28 @@ button {
 }
 
 button:hover {
-  background-color: black;
+  background-color: transparent;
+  border: 2px solid white;
 }
 
 div.first_card button {
   color: #e28625;
 }
+div.first_card button:hover {
+  color: white;
+}
 
 div.second_card button {
   color: #006971;
 }
+div.second_card button:hover {
+  color: white;
+}
 
 div.third_card button {
   color: #004140;
+}
+
+div.third_card button:hover {
+  color: white;
 }
