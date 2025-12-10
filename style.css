@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -52,13 +52,49 @@ div.third_card {
 h2 {
   color: #f2f2f2;
   margin-top: 35px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Big Shoulders", sans-serif;
 }
 
 p {
-  color: #ffffff;
   margin-top: 25px;
+  font-weight: 300;
+}
+
+div.first_card p {
+  color: #f8e1c8;
+}
+
+div.second_card p {
+  color: #bfd9db;
+}
+
+div.third_card p {
+  color: #bfcfcf;
 }
 
 button {
   margin-top: 83px;
+  border: 1px;
+  border-radius: 25px;
+  width: 146px;
+  height: 48px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+div.first_card button {
+  color: #e28625;
+}
+
+div.second_card button {
+  color: #006971;
+}
+
+div.third_card button {
+  color: #004140;
 }
